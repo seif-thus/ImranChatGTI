@@ -73,7 +73,7 @@ const handleSubmit = async (e) =>{
 
     loader(messageDiv);
 //post item on the interface
-    const response = await fetch('http://localhost:5000',{
+    const response = await fetch('https://imran-chat-gpd.onrender.com',{
     method:'POST',
     headers:{
         'COntent-Type':'application/json'
